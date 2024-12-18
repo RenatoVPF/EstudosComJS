@@ -11,14 +11,19 @@
         <h1>Urnar eletronica de Juliadiascites</h1>
     </header>
     <section>
-        <div id="listaDeCad"></div>
+        <div id="listaDeCad">digite o numero do candidato que você quer votatar(nulo ou branco =' 'ou 0, cadidato1 = 1, candidato2 = 2 )</div>
+        <div >numero do candidato:
+            <input type="number" name="numcad" id="numcad">
+            <input type="button" value="votar" onclick="votar()"><br>
+            <input type="button" value="finalizar" onclick="finalizarvotacao()">
+        </div>
         <div id="msg1"></div>
         <div id="msg2"></div>
 
 
 
     </section>
-    <footer>&copy;miniterioDejuliadiascites</footer>
+    <footer>&copy;miniterioDeJuliadiascites</footer>
 
     <script src="sistemadarurna.js"></script>
 </body>

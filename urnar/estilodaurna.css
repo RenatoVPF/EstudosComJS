@@ -1,12 +1,26 @@
 body {
+    background: rgb(56, 55, 55);
+    
 
 }
 header {
-
+    
+    text-align: center;
+    font: normal 15pt Arial ; 
+    color:white ;
 }
 section {
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+    padding: 200px;
+    width: 300px;
+
 
 }
 footer {
     
+    color: white;
+    vertical-align:bottom; /**/
+    text-align: center;
 }
